@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>David van Hoek</title>
+        <link rel="icon" href="logo.jpg">
+        <link rel="stylesheet" href="style.css">
+        
+    </head> 
+    
+    <body>
+
+        <p id="demo"></p>
+        <center>
+            <h1><br><br>David van Hoek<br><br></h1>
+            <h3>
+            Scouting is een wereldwijde jeugdorganisatie die jongeren avontuurlijke en educatieve activiteiten in de natuur biedt.<br>
+            je leert er dingen als knopen maken, samenwerken, omgaan met de natuur en meer<br>
+            <br>
+            er zijn weekend kampen en elke zomer ga je op een groot zomerkamp<br>
+            </h3>
+            <div class="scroll-container">
+            <img src="1.jpg" >
+            <img src="2.jpg" >
+            <img src="3.jpg" >
+            <img src="4.jpg" >
+            <img src="5.jpg" ><!--6 and 7 are to big-->
+            
+            </div> 
+            <script>
+                    function getTime() {
+                        const now = new Date();
+                        const hours = now.getHours().toString().padStart(2, '0'); 
+                        const minutes = now.getMinutes().toString().padStart(2, '0'); 
+                        return hours + ':' + minutes;}
+                    document.getElementById("demo").innerHTML = getTime();
+                    
+            </script> 
+
+        </center>
+        
+    </body>
+</html>
+

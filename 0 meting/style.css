@@ -1,0 +1,29 @@
+div.scroll-container {
+    overflow: scroll;
+    white-space: nowrap;
+    padding: 5px;
+  }
+  
+  div.scroll-container img {
+    padding: 5px;
+  }
+
+  body {
+    color:aquamarine;
+    background-color: rosybrown;
+    
+  }
+  img:not(:hover) {
+    filter: grayscale(100%);
+    -webkit-transition: 1000ms ease 100ms;
+    -moz-transition: 1000ms ease 100ms;
+    transition: 1000ms ease 100ms;
+  }
+  
+  img:hover {
+    filter: grayscale(0%);
+    -webkit-transition: 400ms ease 100ms;
+    -moz-transition: 400ms ease 100ms;
+    transition: 400ms ease 100ms;
+  }
+  
